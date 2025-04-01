@@ -1,3 +1,4 @@
+USE `cul_d_ampolla`;
 SELECT COUNT(*) AS total_invoices
 FROM cul_d_ampolla.sale
 WHERE idClient = 1
