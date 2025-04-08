@@ -81,27 +81,32 @@ Si treballa com a cuiner/a o repartidor/a. Per a les comandes de repartiment a d
 
 Òptica:
 Llista el total de factures d'un client/a en un període determinat.
+
 Llista els diferents models d'ulleres que ha venut un empleat/da durant un any.
+
 Llista els diferents proveïdors que han subministrat ulleres venudes amb èxit per l'òptica.
 
 Pizzeria:
 Llista quants productes de categoria 'Begudes' s'han venut en una determinada localitat.
+
 Llista quantes comandes ha efectuat un determinat empleat/da.
 
-## 📋Requisits
+## 📋Requirements
+
 To get started with this project, you need:
 
 MySQL Server 8.0 or higher
 
 MySQL Workbench 8.0.36 or any compatible version (optional but recommended for easier interaction with the database)
 
-## 🛠️Instal·lació
+## 🛠️Instalation
 
 Install MySQL Workbench:
 
 Download MySQL Workbench from the official website
 
-## ▶️Execució
+## ▶️Execution
 
 Import the Schema: Import the provided SQL file (or run the SQL statements directly) to create the necessary tables and relationships.
+
 Direcory "verification_queries" has the SQL files to execute the verifications that asked.
