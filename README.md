@@ -83,9 +83,7 @@ Si treballa com a cuiner/a o repartidor/a. Per a les comandes de repartiment a d
 
 
 Llista el total de factures d'un client/a en un període determinat.
-
 Llista els diferents models d'ulleres que ha venut un empleat/da durant un any.
-
 Llista els diferents proveïdors que han subministrat ulleres venudes amb èxit per l'òptica.
 
 
@@ -93,7 +91,6 @@ Pizzeria:
 
 
 Llista quants productes de categoria 'Begudes' s'han venut en una determinada localitat.
-
 Llista quantes comandes ha efectuat un determinat empleat/da.
 
 ## 📋Requirements
