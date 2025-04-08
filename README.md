@@ -1,5 +1,5 @@
 # 2.1-Estructura-de-dades-N1
-## 📄Descripció - Enunciat de l'exercici
+## 📄Task description
 
 ### Exercici 1 - Òptica
 Una òptica, anomenada “Cul d'Ampolla”, vol informatitzar la gestió dels clients/es i vendes d'ulleres.
