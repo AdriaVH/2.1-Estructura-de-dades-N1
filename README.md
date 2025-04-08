@@ -114,4 +114,4 @@ Download MySQL Workbench from the official website
 
 Import the Schema: Import the provided SQL file (or run the SQL statements directly) to create the necessary tables and relationships.
 
-Direcory "verification_queries" has the SQL files to execute the verifications that asked.
+Directory "verification_queries" has the SQL files to execute the verifications that asked.
