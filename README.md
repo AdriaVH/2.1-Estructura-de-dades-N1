@@ -1,4 +1,4 @@
-# 1.8-Lambda-N2
+# 2.1-Estructura-de-dades-N1
 ## 📄Descripció - Enunciat de l'exercici
 
 ### Exercici 1 - Òptica
@@ -25,6 +25,7 @@ L'adreça postal.
 El telèfon.
 El correu electrònic.
 La data de registre.
+
 Quan arriba un/a client/a nou, emmagatzemar el/la client/a que li ha recomanat l'establiment (sempre que algú li hagi recomanat).
 El nostre sistema haurà d’indicar qui ha sigut l’empleat/da que ha venut cada ullera.
 
@@ -40,6 +41,7 @@ Codi postal.
 Localitat.
 Província.
 Número de telèfon.
+
 Les dades de localitat i província estaran emmagatzemats en taules separades. Sabem que una localitat pertany a una única província, i que una província pot tenir moltes localitats. Per a cada localitat emmagatzemem un identificador únic i un nom. Per a cada província emmagatzemem un identificador únic i un nom.
 
 Una persona pot realitzar moltes comandes, però una única comanda només pot ser realitzat per una única persona. De cada comanda s'emmagatzema un identificador únic:
@@ -80,6 +82,7 @@ Si treballa com a cuiner/a o repartidor/a. Per a les comandes de repartiment a d
 Llista el total de factures d'un client/a en un període determinat.
 Llista els diferents models d'ulleres que ha venut un empleat/da durant un any.
 Llista els diferents proveïdors que han subministrat ulleres venudes amb èxit per l'òptica.
+
 Pizzeria:
 Llista quants productes de categoria 'Begudes' s'han venut en una determinada localitat.
 Llista quantes comandes ha efectuat un determinat empleat/da.
