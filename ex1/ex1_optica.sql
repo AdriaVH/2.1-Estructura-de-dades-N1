@@ -28,7 +28,7 @@ CREATE TABLE `clients` (
   `id` int NOT NULL AUTO_INCREMENT,
   `fullName` varchar(45) NOT NULL,
   `address` varchar(45) NOT NULL,
-  `phoneNumber` int NOT NULL,
+  `phoneNumber` varchar(15) NOT NULL,
   `email` varchar(45) NOT NULL,
   `registrationDate` date NOT NULL,
   `recomendedBy` int DEFAULT NULL,
@@ -75,8 +75,8 @@ CREATE TABLE `glasses` (
   `glassColor` varchar(15) NOT NULL,
   `price` float NOT NULL,
   `clientId` int DEFAULT NULL,
+  PRIMARY KEY (`id`),
   UNIQUE KEY `ideyeGlasses_UNIQUE` (`id`),
-  UNIQUE KEY `idBrand_UNIQUE` (`brand`),
   KEY `id_idx` (`clientId`),
   CONSTRAINT `fk_brand_glasses` FOREIGN KEY (`brand`) REFERENCES `glassesbrand` (`name`),
   CONSTRAINT `id` FOREIGN KEY (`clientId`) REFERENCES `clients` (`id`)
@@ -96,8 +96,6 @@ CREATE TABLE `glassesbrand` (
   `supplierId` int NOT NULL,
   PRIMARY KEY (`brandId`),
   UNIQUE KEY `idglassesBrand_UNIQUE` (`brandId`),
-  UNIQUE KEY `supplierId_UNIQUE` (`supplierId`),
-  UNIQUE KEY `name_UNIQUE` (`name`),
   CONSTRAINT `fk_brand_supplier` FOREIGN KEY (`supplierId`) REFERENCES `supplier` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
